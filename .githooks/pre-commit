@@ -1,0 +1,4 @@
+#!/bin/sh
+# Runs the shared safety + security gate before every commit (terminal or tool).
+# Enabled via `git config core.hooksPath .githooks` (set automatically by `npm install`).
+exec sh .claude/hooks/precommit-safety.sh commit

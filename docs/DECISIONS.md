@@ -1,0 +1,36 @@
+# Decisions
+
+> Permanent decision log for durable product, UX, technical, and workflow decisions.
+
+<!-- Stub — promote to active maintenance on the first durable decision. -->
+
+<!-- Rules:
+- Most recent first.
+- Do not rewrite old decisions; add a new entry when the decision changes.
+- Keep entries short and link to feature files when details matter.
+-->
+
+## Entry format
+
+```text
+### YYYY-MM-DD — Decision title
+
+- **Type**: Product | UX | Technical | Workflow
+- **Status**: active | superseded
+- **Context**:
+- **Decision**:
+- **Why**:
+- **Consequences**:
+- **Related**:
+```
+
+## Type guide
+
+- **Product**: What the product is or is not.
+- **UX**: User-visible behavior, flow, copy, or interaction model.
+- **Technical**: Architecture, data, APIs, dependencies, or implementation direction.
+- **Workflow**: How Claude Code and the user collaborate.
+
+## Log
+
+<!-- Add durable project decisions here, most recent first. -->

@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+
+# Build output
+dist/
+
+# Local Claude Code overrides
+.claude/settings.local.json
+
+# Secrets / credentials — never commit these (the safety gate also blocks them)
+.env
+.env.*
+# but allow committable placeholder templates (no real secrets)
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+id_rsa
+credentials.json

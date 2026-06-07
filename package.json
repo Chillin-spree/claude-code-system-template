@@ -1,0 +1,19 @@
+{
+  "name": "app-name",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write .",
+    "test": "node --test",
+    "serve": "python3 -m http.server 8000",
+    "prepare": "git config core.hooksPath .githooks || true"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.1",
+    "globals": "^17.6.0",
+    "prettier": "^3.8.3"
+  }
+}
